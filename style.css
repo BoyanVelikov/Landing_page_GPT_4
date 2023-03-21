@@ -1,0 +1,153 @@
+/* Header */
+header {
+	background-color: #942020;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav li {
+	margin-right: 1rem;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Hero */
+section:first-of-type {
+	background-color: #f2f2f2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 50vh;
+	text-align: center;
+}
+
+section:first-of-type h1 {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+section:first-of-type p {
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+section:first-of-type button {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 1rem 2rem;
+	font-size: 1.5rem;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/* Features */
+section:nth-of-type(2) {
+	background-color: #fff;
+	padding: 2rem;
+}
+
+section:nth-of-type(2) h2 {
+	font-size: 2rem;
+	margin-bottom: 2rem;
+}
+
+section:nth-of-type(2) ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+section:nth-of-type(2) li {
+	margin-bottom: 1rem;
+}
+
+/* Testimonials */
+section:nth-of-type(3) {
+	background-color: #f2f2f2;
+	padding: 2rem;
+}
+
+section:nth-of-type(3) h2 {
+	font-size: 2rem;
+	margin-bottom: 2rem;
+}
+
+section:nth-of-type(3) blockquote {
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+section:nth-of-type(3) cite {
+	font-size: 1.2rem;
+	font-style: italic;
+}
+
+/* FAQ */
+section:nth-of-type(4) {
+	background-color: #fff;
+	padding: 2rem;
+}
+
+section:nth-of-type(4) h2 {
+	font-size: 2rem;
+	margin-bottom: 2rem;
+}
+
+section:nth-of-type(4) dl {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+section:nth-of-type(4) dt {
+	flex-basis: 50%;
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+section:nth-of-type(4) dd {
+	flex-basis: 50%;
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem;
+}
+
+footer nav ul {
+	display: flex;
+	list-style: none;
+}
+
+footer nav li {
+	margin-right: 1rem;
+}
+
+footer nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+footer p {
+	margin: 0;
+	font-size: 1.2rem;
+}
